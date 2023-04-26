@@ -1,0 +1,30 @@
+header nav {
+    display: flex;
+    gap: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+nav .logo{
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+header nav a{
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+header nav a.active {
+    background: var(--primary);
+}
+nav .rise{
+    padding-left: 10px;
+    font-size: 0.9rem;
+    color: aliceblue;
+}
