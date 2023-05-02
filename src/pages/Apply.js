@@ -5,7 +5,10 @@ const Apply = () => {
     return ( 
         <div>
             <Navbar></Navbar>
-            <h1>APPLY TO TECH-RISE</h1>
+            <div className="i-apply">
+                <h1>APPLY TO TECH-RISE</h1>
+                </div>
+ 
         </div>
      );
 }
